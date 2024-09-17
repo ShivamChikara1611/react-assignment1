@@ -22,7 +22,7 @@ const BrowserTodo = props => {
           className="delete-button"
           type="button"
           onClick={onDeleteTransaction}
-          testid="delete"
+          data-testid="delete"
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
